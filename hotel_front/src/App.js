@@ -5,7 +5,7 @@ import MyRoutes from './components/MyRoutes';
 
 function App() {
   useEffect(() => {
-    document.title = 'Hotel';
+    document.title = 'HotelApplication';
   }, []);
   return (
     <Router>
