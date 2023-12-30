@@ -4,6 +4,7 @@ import { Ville } from './Ville';
 import { Hotel } from './Hotel';
 import { Chambre } from './Chambre';
 import { Reservation } from './Reservation';
+import { User } from './User';
 
 export default function MyRoutes() {
     return (
@@ -13,6 +14,7 @@ export default function MyRoutes() {
             <Route path="/hotels" element={<Hotel />} />
             <Route path="/chambres" element={<Chambre />} />
             <Route path="/reservations" element={<Reservation />} />
+            <Route path="/users" element={<User />} />
         </Routes>
     )
 }

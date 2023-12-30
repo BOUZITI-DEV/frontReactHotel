@@ -9,6 +9,7 @@ const Navbar = () => {
             <Link className="btn btn-ghost normal-case text-xl" to="/hotels">Hotels</Link>
             <Link className="btn btn-ghost normal-case text-xl" to="/chambres">Chambres</Link>
             <Link className="btn btn-ghost normal-case text-xl" to="/reservations">Reservations</Link>
+            <Link className="btn btn-ghost normal-case text-xl" to="/users">Users</Link>
         </div>
     );
 };
